@@ -58,6 +58,12 @@ h4{
     display: flex;
 }
 
+/* .col_4w{
+    flex-flow: column wrap;
+    width: calc((100%/12) * 2);
+
+} */
+
 .col_4{
     flex-direction: column;
     width: calc((100%/12) * 4);
@@ -178,7 +184,7 @@ h1{
 /* #region buisness */
 
 
-.busi_for_u_title{
+.busi_for_u_title, .title_operation, .team_user{
     margin-top: 7rem;
     font-size: 3rem;
 }
@@ -336,5 +342,14 @@ div:first-child .choice{
 
 /* #endregion enterprise */
 
+/* #region operation */
 
+.m_right{
+    margin-right: 1rem;
+}
+
+.costumer{
+    text-decoration: underline;
+}
+/* #endregion operation */
 
