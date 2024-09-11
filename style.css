@@ -1,0 +1,67 @@
+
+/* #region common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* #endregion common */
+
+/* #region utility */
+
+:root{
+    --drop-primary: #ffffff;
+    --drop-secondary: #000000;
+    --drop-lightblue: #b4d0e7;
+    --drop-midblue: #2667ff;
+    --drop-blue: #0061ff;
+    --drop-bdx: #61082b;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.container_la{
+    width: 70%;
+
+}
+
+.container_sm{
+    width: 60%;
+
+}
+
+.row{
+    display: flex;
+}
+
+.col_4{
+    flex-direction: column;
+    width: calc((100%/12) * 4);
+}
+
+
+.col_6{
+    flex-direction: column;
+    width: 50%;
+}
+
+.col_8{
+    flex-direction: column;
+    width: calc((100%/12) * 8) ;
+}
+
+
+/* #endregion utility */
