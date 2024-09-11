@@ -34,6 +34,11 @@ a{
 
 .d_flex{
     display: flex;
+
+}
+
+.jf_cnt{
+    justify-content: center;
 }
 
 .container_la{
@@ -70,6 +75,14 @@ a{
     color: gray;
 }
 
+.btn{
+    background-color: var(--drop-blue);
+    color: var(--drop-primary);
+}
+
+.btn:hover{
+    background-color: var(--drop-midblue);
+}
 /* #endregion utility */
 
 /* #region header */
@@ -94,12 +107,58 @@ header>div{
     align-items: center;
 }
 
+
 .btn_start{
-    background-color: var(--drop-blue);
+    
     padding: .3rem;
     padding-left: .7rem;
     padding-right: .7rem;
-    color: var(--drop-primary);
+    
     
 }
 
+/* #endregion header */
+
+/* #region trial */
+
+.trial{
+    background-color: var(--drop-lightblue);
+    max-height: 600px;
+}
+
+
+.jumbo{
+    min-height: 30rem;
+
+}
+
+h1{
+    font-size: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.trial_p{
+    margin-bottom: 2rem;
+}
+
+
+.btn_trial{
+    padding: .5rem;
+}
+
+
+.p_cancel{
+    margin-top: 2rem;
+}
+
+.arrow{
+    margin-top: 4rem;
+}
+
+.img_jumbo{
+    position: relative;
+}
+
+
+/* #endregion trial */
