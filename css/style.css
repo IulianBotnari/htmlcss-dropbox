@@ -128,6 +128,10 @@ header>div{
 
 /* #region trial */
 
+main{
+    height: 4000px;
+}
+
 .trial{
     background-color: var(--drop-lightblue);
     max-height: 600px;
@@ -172,9 +176,7 @@ h1{
 /* #endregion trial */
 
 /* #region buisness */
-.buisness{
-    height: 700px;
-}
+
 
 .busi_for_u_title{
     margin-top: 7rem;
@@ -293,7 +295,46 @@ div:first-child .choice{
     margin-bottom: 1rem!important;
 }
 
+.Enterprise{
+    margin-top: 4rem!important;
+    display: block!important;
+    border: 1px solid grey;
+    margin-bottom: 5rem;
+}
+
+.team{
+    height: 3rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-top: 0!important;
+}
+
+.btn_sales{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-left: 3.5rem;
+}
+
 /* #endregion buisness */
+
+/* #region enterprise */
+
+.contact{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.partner{
+    margin-top: 1rem;
+    border: 1px solid grey;
+    width: 8rem;
+    padding: .5rem;
+    color: grey;
+}
+
+/* #endregion enterprise */
 
 
 
