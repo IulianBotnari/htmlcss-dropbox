@@ -14,6 +14,9 @@ a{
     text-decoration: none;
 }
 
+h4{
+    margin-top: 1rem;
+}
 
 /* #endregion common */
 
@@ -82,6 +85,10 @@ a{
 
 .btn:hover{
     background-color: var(--drop-midblue);
+}
+
+.m_col{
+    margin-left: 2rem;
 }
 /* #endregion utility */
 
@@ -161,4 +168,132 @@ h1{
 }
 
 
+
 /* #endregion trial */
+
+/* #region buisness */
+.buisness{
+    height: 700px;
+}
+
+.busi_for_u_title{
+    margin-top: 7rem;
+    font-size: 3rem;
+}
+
+.b_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-top: .8rem;
+
+}
+
+.s_c{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    
+}
+
+.choice{
+    display: flex;
+}
+
+.choice:hover{
+
+    cursor: pointer;
+
+    .b_c{
+        background-color: var(--drop-midblue);
+    }
+
+    .s_c{
+        background-color: var(--drop-primary);
+    }
+}
+
+.container_sm:first-child div{
+    display: flex;
+    margin-top: .8rem;
+}
+
+div:first-child .choice{
+    margin-right: 3rem ;
+    margin-bottom: 3rem;
+}
+
+
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 3rem;
+    margin-top: 0rem!important;
+
+}
+
+.col_border{
+    border: 1px solid grey;
+}
+
+.buisness_row > :first-child {
+    margin-right: 2.5rem;
+}
+
+.buisness_row > :last-child {
+    margin-left: 2.5rem;
+}
+
+.row div span{
+    color:gray;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.description{
+    margin-bottom: 1rem;
+}
+
+
+.btn_buisness{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    
+}
+
+.acquista, .link_shop{
+    display: inline-block;
+    margin-top: .8rem;
+
+}
+
+.separate{
+    width: 20%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 3rem;
+}
+
+.hot_point_title{
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.hot_point{
+    color: black !important;
+    margin-top: 0rem!important;
+    margin-bottom: 1rem!important;
+}
+
+/* #endregion buisness */
+
+
+
