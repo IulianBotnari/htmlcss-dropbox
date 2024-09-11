@@ -10,6 +10,9 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* #endregion common */
@@ -63,5 +66,40 @@ img{
     width: calc((100%/12) * 8) ;
 }
 
+.grey_text{
+    color: gray;
+}
 
 /* #endregion utility */
+
+/* #region header */
+
+header{
+    min-height: 70px;
+}
+
+.r_menu, .l_menu{
+    width: 50%;
+}
+
+.l_menu{
+    justify-content: flex-end;
+}
+
+header a{
+    margin: 1rem;
+}
+
+header>div{
+    align-items: center;
+}
+
+.btn_start{
+    background-color: var(--drop-blue);
+    padding: .3rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    color: var(--drop-primary);
+    
+}
+
