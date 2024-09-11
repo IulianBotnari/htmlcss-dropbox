@@ -344,6 +344,10 @@ div:first-child .choice{
 
 /* #region operation */
 
+.team_user{
+    margin-bottom: 3rem;
+}
+
 .m_right{
     margin-right: 1rem;
 }
@@ -353,3 +357,63 @@ div:first-child .choice{
 }
 /* #endregion operation */
 
+/* #region collab */
+
+.collab{
+    margin-top: 6rem;
+}
+
+
+.b_square{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.s_square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+
+/* #endregion collab */
+
+
+/* #region buisness factory */
+
+.buisness_factory{
+    margin-top: -4px;
+    background-color: var(--drop-lightblue);
+    min-height: 20rem;
+    
+}
+
+.drop_buis{
+    width: 60%;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.title_drop_box{
+    font-size: 3rem;
+    color: var(--drop-bdx);
+}
+
+.btn_trial_buisness{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: white;
+    color: #000000;
+    width: 80%;
+}
+
+.col_btn{
+    display: flex;
+    align-items: flex-end;
+}
+/* #endregion buisness factory */
