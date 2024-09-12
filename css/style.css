@@ -393,6 +393,7 @@ div:first-child .choice{
 
 .designit{
     background-color: var(--drop-designit);
+    border: 1rem solid rgba(245, 255, 245, 0.486)
 
 }
 
@@ -432,13 +433,15 @@ div:first-child .choice{
 .uni_florida{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
     width: 50%;
-    height: 15%;
+    height: 10%;
 }
 
 .florida{
     display: flex;
     align-items: center;
 }
+
+
 /* #endregion collab */
 
 
